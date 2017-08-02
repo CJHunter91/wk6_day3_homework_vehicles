@@ -19,4 +19,8 @@ public class Driver{
     return this.vehicle.driveTime(distance);
   }
 
+  public void setVehicle(Driveable newVehicle){
+    this.vehicle = newVehicle;
+  }
+
 }

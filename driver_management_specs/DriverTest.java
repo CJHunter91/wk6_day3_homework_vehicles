@@ -34,6 +34,6 @@ public class DriverTest{
   public void driverCanSetVehicle(){
     Dodgem car = new Dodgem(20);
     driver.setVehicle(car);
-    assertEquals(1, driver.driveTime(40));
+    assertEquals(2, driver.driveTime(40));
   }
 }
