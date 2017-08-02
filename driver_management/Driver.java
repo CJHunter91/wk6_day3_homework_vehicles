@@ -1,10 +1,13 @@
 package driver_management;
+import behaviours.*;
 
 public class Driver{
 
-  Drivable vehicle;
+  Driveable vehicle;
+  String name;
 
-  public Driver(Drivable vehicle){
+  public Driver(String name, Driveable vehicle){
     this.vehicle = vehicle;
+    this.name = name;
   }
 }

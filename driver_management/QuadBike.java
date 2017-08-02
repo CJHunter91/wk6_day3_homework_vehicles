@@ -1,6 +1,6 @@
 package driver_management;
 import behaviours.*;
-public class QuadBike{
+public class QuadBike implements Driveable{
 
   private int averageSpeed;
   private String engineSize;

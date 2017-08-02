@@ -1,0 +1,21 @@
+import static org.junit.Assert.*;
+import org.junit.*;
+import driver_management.*;
+
+public class DriverTest{
+
+  Driver driver;
+  QuadBike quad;
+  Dodgem dodgem;
+
+  @Before
+  public void before(){
+    driver = new Driver("Chris", quad);
+    quad = new QuadBike(20);
+  }
+
+  @Test
+  public void hasQuad(){
+    assertEquals(quad, driver.getVehicle());
+  }
+}
