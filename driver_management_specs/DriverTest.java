@@ -16,8 +16,8 @@ public class DriverTest{
 
   @Test 
   public void canGetQuad(){
-    quad = (Quad) driver.getVehicle();
-    assertEquals("100 cc", quad.engineSize());
+    QuadBike quad1 = (QuadBike) driver.getVehicle();
+    assertEquals("100 cc", quad.getEngineSize());
   }
   // @Test
 

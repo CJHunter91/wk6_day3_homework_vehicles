@@ -12,7 +12,7 @@ public class Driver{
   }
 
   public Driveable getVehicle(){
-    
+    return this.vehicle;
   }
 
   public int driveTime(int distance){
