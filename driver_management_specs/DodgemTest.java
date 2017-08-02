@@ -3,7 +3,7 @@ import org.junit.*;
 
 import driver_management.*;
 
-public class DodgemTest(){
+public class DodgemTest{
   Dodgem car;
 
 
@@ -14,6 +14,6 @@ public class DodgemTest(){
 
   @Test
   public void DriveDistanceReturnsTime(){
-    assertEquals(100, car.driveDistance())
+    assertEquals(100, car.driveDistance(10));
   }
 }

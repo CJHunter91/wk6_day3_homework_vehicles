@@ -1,7 +1,6 @@
 package behaviours;
 
-public interface Dirveable{
-  public int driveDistance(int distance){
-    
-  }
+public interface Driveable{
+  public int driveDistance(int distance);
 }
+    

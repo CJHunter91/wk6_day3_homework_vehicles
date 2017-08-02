@@ -1,5 +1,5 @@
 package driver_management;
-import behaviour.*;
+import behaviours.*;
 
 public class Dodgem implements Driveable{
 
