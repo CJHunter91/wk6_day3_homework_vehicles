@@ -20,6 +20,6 @@ public class QuadBikeTest{
 
   @Test
   public void canGetEngineSize(){
-    assertEquals("100 cc", quad.getEngine());
+    assertEquals("100 cc", quad.getEngineSize());
   }
 }
