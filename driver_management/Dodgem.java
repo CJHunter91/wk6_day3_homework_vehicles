@@ -10,7 +10,7 @@ public class Dodgem implements Driveable{
     this.averageSpeed = averageSpeed;
   }
 
-  public int driveDistance(int distance){
+  public int driveTime(int distance){
     return distance/this.averageSpeed;
   }
 }

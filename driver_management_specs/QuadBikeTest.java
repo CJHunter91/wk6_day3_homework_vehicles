@@ -5,6 +5,12 @@ import driver_management.*;
 
 public class QuadBikeTest{
 
-  
+  QuadBike quad;
+
+  @Before
+
+  public void before(){
+    
+  }
 
 }
