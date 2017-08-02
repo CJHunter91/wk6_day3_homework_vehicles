@@ -6,7 +6,6 @@ public class DriverTest{
 
   Driver driver;
   QuadBike quad;
-  Dodgem dodgem;
 
   @Before
   public void before(){
@@ -29,5 +28,10 @@ public class DriverTest{
   @Test
   public void driverHasDriveTime(){
     assertEquals(1, driver.driveTime(10));
+  }
+
+  @Test
+  public void driverCanSetVehicle(){
+    assertEquals(, )
   }
 }
