@@ -30,8 +30,10 @@ public class DriverTest{
     assertEquals(1, driver.driveTime(10));
   }
 
-  // @Test
-  // public void driverCanSetVehicle(){
-  //   assertEquals(, )
-  // }
+  @Test
+  public void driverCanSetVehicle(){
+    Dodgem car = new Dodgem(20);
+    driver.setVehicle(car);
+    assertEquals(1, driver.driveTime(40));
+  }
 }
