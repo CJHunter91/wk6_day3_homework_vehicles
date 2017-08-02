@@ -14,8 +14,14 @@ public class DriverTest{
     quad = new QuadBike(20);
   }
 
-  @Test
-  public void driverHasDriveTime(){
-    assertEquals(2, driver.driveTime(10));
-  }
+  // @Test
+
+  // public void getQuadEngineSize(){
+    
+  // }
+
+  // @Test
+  // public void driverHasDriveTime(){
+  //   assertEquals(2, driver.driveTime(10));
+  // }
 }

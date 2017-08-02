@@ -7,6 +7,7 @@ public class QuadBike implements Driveable{
 
   public QuadBike(int averageSpeed){
     this.averageSpeed = averageSpeed;
+    this.engineSize = "100 cc";
   }
 
   public int driveTime(int distance){
