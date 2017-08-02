@@ -16,6 +16,6 @@ public class Dodgem implements Driveable{
   }
 
   public int getNumberOfSeats(){
-    
+    return this.numberOfSeats;
   }
 }

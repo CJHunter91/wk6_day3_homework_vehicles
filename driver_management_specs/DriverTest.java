@@ -30,8 +30,8 @@ public class DriverTest{
     assertEquals(1, driver.driveTime(10));
   }
 
-  @Test
-  public void driverCanSetVehicle(){
-    assertEquals(, )
-  }
+  // @Test
+  // public void driverCanSetVehicle(){
+  //   assertEquals(, )
+  // }
 }
