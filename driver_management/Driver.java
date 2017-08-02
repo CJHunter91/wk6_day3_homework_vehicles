@@ -3,8 +3,8 @@ import behaviours.*;
 
 public class Driver{
 
-  Driveable vehicle;
-  String name;
+  private Driveable vehicle;
+  private String name;
 
   public Driver(String name, Driveable vehicle){
     this.vehicle = vehicle;

@@ -15,7 +15,7 @@ public class QuadBikeTest{
 
   @Test
   public void driveDistanceReturnsTime(){
-    assertEquals(1, quad.driveTime(10));
+    assertEquals(2, quad.driveTime(20));
   }
 
   @Test

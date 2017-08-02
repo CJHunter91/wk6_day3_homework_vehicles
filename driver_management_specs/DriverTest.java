@@ -10,8 +10,9 @@ public class DriverTest{
 
   @Before
   public void before(){
+    quad = new QuadBike(10);
     driver = new Driver("Chris", quad);
-    quad = new QuadBike(20);
+    
   }
 
   @Test 
@@ -25,8 +26,8 @@ public class DriverTest{
   //   assertEquals("100 cc", driver.getEngineSize());
   // }
 
-  // @Test
-  // public void driverHasDriveTime(){
-  //   assertEquals(2, driver.driveTime(10));
-  // }
+  @Test
+  public void driverHasDriveTime(){
+    assertEquals(1, driver.driveTime(10));
+  }
 }
