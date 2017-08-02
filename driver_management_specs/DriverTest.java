@@ -14,10 +14,15 @@ public class DriverTest{
     quad = new QuadBike(20);
   }
 
+  @Test 
+  public void canGetQuad(){
+    quad = (Quad) driver.getVehicle();
+    assertEquals("100 cc", quad.engineSize());
+  }
   // @Test
 
   // public void getQuadEngineSize(){
-    
+  //   assertEquals("100 cc", driver.getEngineSize());
   // }
 
   // @Test
