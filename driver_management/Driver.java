@@ -10,4 +10,8 @@ public class Driver{
     this.vehicle = vehicle;
     this.name = name;
   }
+
+  public int driveTime(int distance){
+    return this.vehicle.driveTime(distance);
+  }
 }

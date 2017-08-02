@@ -15,7 +15,7 @@ public class DriverTest{
   }
 
   @Test
-  public void hasQuad(){
-    assertEquals(quad, driver.getVehicle());
+  public void driverHasDriveTime(){
+    assertEquals(2, driver.driveTime(10));
   }
 }
